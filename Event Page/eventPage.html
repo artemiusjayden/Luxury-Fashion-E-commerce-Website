@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="eventStyle.css">
+    <link rel="stylesheet" href="../menus.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CW Event Page</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="event-bar">
+            <a href="#">Join Christian Wijaya’s exclusive Spring/Summer 2025 showcase. Model registration now open.</a>
+        </div>
+
+        <div class="white-box"></div>
+        
+        <div class="sticky-content">
+            <header class="navigation-bar">
+                <div class="left-icons">
+                    <img src="menuIcon.jpg" alt="" class="menu-icon">
+                    <img src="searchIcon.jpg" alt="" class="search-icon">
+                </div>
+            
+                <a href="../Home Page/homePage.html"> 
+                    <img src="CWLogo.jpg" alt="" class="overlay-logo">
+                </a>
+                
+                <div class="right-icons">
+                    <img src="favIcon.jpg" alt="" class="fav-icon">
+                    <img src="profIcon.jpg" alt="" class="prof-icon">
+                    <img src="cartIcon.jpg" alt="" class="cart-icon">
+                </div>
+            
+            </header>
+
+           <nav class="menu">
+                <a href="../Home Page/homePage.html">
+                    Home
+                </a>
+                /
+                <a href="#">
+                    Events
+                </a>
+            </nav>
+        </div>
+
+        <div class="search-slide-in">
+            <img src="xIcon.jpg" alt="" class="x-icon">
+             
+            <div class="off-screen-search">
+                <div class="search-content">
+                    <input type="text" id="search" name="search">
+                    <a href="#">Trending Searches:</a>
+                    <a href="#">T-Shirt</a>
+                    <a href="#">Baggy Jeans</a>
+                    <a href="#">Glasses</a>
+                </div>
+            </div>
+            <div class="off-screen-search-background"></div>
+        </div> 
+
+        <div class="menu-slide-in">     
+            <img src="xIcon.jpg" alt="" class="x-icon">
+
+            <div class="off-screen-menu">
+                <div class="menu-content">
+                    <a href="../Product Page/productPage.html">New</a>
+                    <a href="../Product Page/productPage.html">For Her</a>
+                    <a href="../Product Page/productPage.html">For Him</a>
+                    <a href="../Product Page/productPage.html">Accessories</a>
+                    <a href="../Product Page/productPage.html">Footwear</a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <a href="../Event Page/eventPage.html">Events</a>
+                    <a href="../About Page/aboutPage.html">About Us</a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <a> </a>
+                    <img src="menuIconFooter.jpg" alt="" class="menu-icon-footer">
+                </div>
+            </div>
+            <div class="off-screen-menu-background"></div>
+        </div>
+        
+        <div class="cart-slide-in">     
+            <img src="xIcon.jpg" alt="" class="xcart-icon">
+
+            <div class="off-screen-cart">
+                <div class="cart-content">
+                    <h2>SHOPPING CART</h2>
+                    <img src="line.jpg" alt="" class="lineTop">
+                    <div class="listCart">
+                        <div class="item">
+                            <div class="image">
+                                <img src="image1.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                Medium Fit Beige T-Shirt
+                            </div>
+                            <div class="quantity">
+                                <span class="minusCart"><</span>
+                                <span class="numCart">1</span>
+                                <span class="plusCart">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="line.jpg" alt="" class="lineBot">
+                    <div class="total-container">
+                       <h3>Subtotal:</h3> 
+                       <h3>IDR 24.200.000</h3>
+                    </div>
+                    <h4>Shipping and taxes calculated at checkout</h4>
+                    <div id="CheckoutButton-container">
+                        <button type="checkout">Checkout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="off-screen-cart-background"></div>
+        </div>
+
+        <!-- <div class="timeless-text">Become The Face of Timeless Elegance</div>
+        <div class="timeless-desc">Christian Wijaya invites a select few to embody the spirit of our Spring/Summer 2025 collection. Step into a world of elegance and distinction—register now for this rare opportunity.</div>
+
+        <div class="collection-banner">
+            <div class="black-box">
+                <img src="titleImage.jpg" alt="" class="banner-image">
+            </div>
+        </div> -->
+        
+        <main id="form-container">
+            <h1>REGISTRATION DETAILS</h1>
+            <h2>Register to join our exclusive model casting. Submit your profile to access event updates, important deadlines, and the chance to be featured in the Christian Wijaya Spring/Summer 2025 showcase.</h2>
+            <form action="" id="register-form" method="GET">
+                <label for="username">First Name*</label>
+                <input type="text" id="first-name" name="first-name" required>
+        
+                <label for="username">Last Name*</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="username">Email*</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="username">Age*</label>
+                <input type="number" id="number" name="number" required>
+        
+                <label for="username">Date of Birth*</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for=" ">Gender*</label>
+                <div class="radio-group">
+                    <span><input type="radio" name="gender" value="male"> Male</span>
+                    <span><input type="radio" name="gender" value="female"> Female</span>
+                </div>
+                
+                <p class="checkbox">
+                    <input type="checkbox" name="terms" required id="agreement">
+                    I have read and understood the privacy policy and I agree to the Terms and Conditions*
+                </p>
+    
+                <div id="button-container">
+                    <button type="submit">REGISTER</button>
+                </div>
+            </form>
+        </main>
+
+        <img src="footerImage.jpg" alt="" class="footer-image">
+    </div>
+    <script src="../CWscript.js"></script>
+    <script src="Quantity.js"></script>
+
+</body>
+</html>
